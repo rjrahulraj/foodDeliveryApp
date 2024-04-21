@@ -1,0 +1,73 @@
+
+
+
+
+.LoginPopup{
+     display: flex;
+     background-image: url(/backLogin.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 80vw;
+     height: 60vh;
+     align-items: center;
+     justify-content: center;
+}
+
+::-webkit-scrollbar{
+     display: none;
+}
+
+.loginInput{
+     display: flex;
+     flex-direction: column;
+}
+
+
+.title h2{
+     margin: 4px;
+     font-weight: 500;
+}
+
+.loginInput input{
+     margin: 4px 0;
+     height: 40px;
+     width: 320px;
+     border-radius: 20px;
+     padding: 10px;
+     font-size: large;
+}
+
+.loginContainer button{
+     height: 40px;
+     width: 150px;
+     border-radius: 20px;
+     margin: 4px 0;
+     font-size: large;
+}
+
+.loginCondition{
+     display: flex;
+     /* align-items: flex-start; */
+     font-size: large;
+     margin: 4px 0;
+}
+
+.loginCondition input{
+     width: 20px ;
+     margin-right: 8px;
+}
+/* .loginCondition p{
+     width: 250px;
+} */
+
+.userLogin{
+     font-size: large;
+}
+
+.userLogin span{
+     font-weight: 600;
+     color: red;
+     text-decoration: underline;
+     margin: 0 3px;
+}

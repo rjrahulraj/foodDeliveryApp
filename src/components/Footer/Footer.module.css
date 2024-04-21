@@ -1,0 +1,83 @@
+
+
+.footer{
+     display: flex;
+     flex-direction: column;
+     height: 30vh;
+     color: #d9d9d9;
+     background-color: #323232;
+     padding-top: 50px;
+     margin: none;
+     gap: 3vh;
+     width: 100%;
+     margin-top: auto;
+}
+
+.footerContent{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+
+.copyRight{
+     text-align: center;
+     font-size: large;
+     background-color: #323232;
+}
+
+ul li{
+     list-style: none;
+}
+
+.companyName{
+     color: rgb(177, 6, 6);
+     font-size: 30px;
+     font-weight: 700;
+}
+
+@media screen and (max-width:1330px){
+     .footer{
+          display: flex;
+          flex-direction: column;
+          height: 250px;
+          color: #d9d9d9;
+          background-color: #323232;
+          padding-top: 50px;
+          margin: none;
+          gap: 3vh;
+          width: 100%;
+          margin-top: auto;     
+     }
+     
+}
+
+@media screen and (max-width:860px){
+     .logo{
+          width: 120px;
+     }
+     
+     .footerLeft p{
+          font-size: small;
+          width: 80%;
+     }
+     .socialIcons img{
+          width: 30px;
+          margin: 2px;
+     }
+     .footerCenter{
+          font-size: small;
+     }
+     .footerRight{
+          font-size: small;
+     }
+     .copyRight{
+          font-size: medium;
+     }
+}
+@media screen and (max-width:860px){
+     
+     .footerCenter{
+          display: none;
+     }
+}

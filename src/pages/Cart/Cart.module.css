@@ -1,0 +1,135 @@
+.cartItems{
+     margin-top: 40px;
+}
+
+.cardItemsTitle{
+     display: flex;
+     justify-content: space-between;
+}
+
+.cartItemDetails{
+     display: flex;
+     justify-content: space-between;
+     margin: 5px;
+}
+
+.cartItemDetails img{
+     height: 50px;
+}
+
+.cartItemDetails p{
+     position: relative;
+     right: 6vh;
+}
+.order_summary{
+     display: flex;
+     flex-direction: row;
+     align-content: space-evenly;
+
+}
+.orderfood{
+     
+     width: 50%;
+     min-width: 50%;
+     margin:  auto 0;
+    
+}
+
+.order_summary h1{
+     text-decoration: underline;
+     margin: 5px;
+}
+.orderfood h1{
+     font-size :large;
+     font-weight: 500;
+     text-decoration: none;
+}
+
+.orderfoodItem{
+     display: flex;
+     justify-content: space-between;
+}
+
+.totalAmt{
+     margin: 10px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.textCenter{
+     text-align: center;
+     font-weight: 500;
+}
+.checkoutBtn{
+     background-color: tomato;
+     padding: 8px;
+     border-radius: 5px;
+     margin: 10px;
+     max-height: 40px;
+     max-width: 160px;
+}
+
+.coupon{
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+     margin: auto;
+}
+
+.couponCode> input{
+     background-color: rgb(221, 214, 214);
+     border-radius: 4px;
+     padding: 5px;
+}
+.couponCode> button{
+     border-radius: 4px;
+     padding: 5px;
+     margin: 2px;
+}
+
+@media screen and (max-width:660px) {
+     .cartItems{
+          margin-top: 40px;
+
+          font-size: small;
+     }
+     .cartItemDetails img{
+          height: 30px;
+     }
+
+
+     .order_summary{
+          display: flex;
+          flex-direction: column;     
+     }
+     .coupon{
+          display: flex;
+          flex-direction: column;
+          justify-content: left;
+     }
+    
+     
+}    
+@media screen and (max-width:620px) {
+     .cartItems{
+          margin-top: 40px;
+
+          font-size: x-small;
+     }
+
+     .cartItemDetails img{
+          height: 20px;
+     }
+}   
+@media screen and (max-width:510px) {
+     .cartItems{
+          margin-top: 40px;
+
+          font-size: xx-small;
+     }
+     .cartItemDetails img{
+          height: 13px;
+     }
+     
+}  

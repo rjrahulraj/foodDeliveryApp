@@ -1,0 +1,45 @@
+
+
+.foodDisplay{
+     margin-top: 5vh;
+}
+
+.foodDisplay h2{
+     font-size: x-large;
+     font-weight: 600;
+}
+
+.foodDisplayList{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+@media screen and (max-width:970px){
+
+     .foodDisplay h2{
+          font-size: x-large;
+          font-weight: 600;
+          /* margin-left: 10vh; */
+          text-align: center;
+     }
+
+}
+@media screen and (max-width:750px)
+{
+     .foodDisplay h2{
+          font-size: x-large;
+          font-weight: 600;
+          /* margin-left: 25vh; */
+          text-align: center;
+     }
+}
+
+@media screen and (max-width:660px)
+{
+     .foodDisplayList{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+     }
+
+}

@@ -1,0 +1,127 @@
+
+
+.header{
+     background-image: url('/header_img.png');
+     background-repeat: no-repeat ;
+     height: 37vw;
+     background-size: contain;
+     margin-top: 20px;
+     margin-bottom: 10px;
+     
+     position: relative;
+}
+
+.headerContents{
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     /* top: 40vh;
+     left: 10vh; */
+     gap: 1.5vw;
+     max-width: 50%;
+     bottom:20%;
+     left: 7%;
+     animation: fadeIn 3s;
+}
+.headerContents h2{
+     font-size: 8vh;
+     font-weight: 600;
+     color: white;
+     
+} 
+.headerContents p{
+     font-size: large;
+     color: white;
+     
+}
+.headerContents button{
+     height: 5vh;
+     width: 14vh;
+     color: gray;
+     background-color: white;
+     border-radius: 20px;
+     font-size: large;
+} 
+
+
+@media (max-width:1400px) {
+     .header{
+          height: 38vw;
+     }
+     .headerContents{
+          width: 55%;
+     }
+     .headerContents h2{
+          font-size: 6vh;
+          font-weight: 500;
+          color: white;
+          
+     } 
+     .headerContents p{
+          font-size: small;
+          color: white;
+          
+     }
+     .headerContents button{
+          height: 6vh;
+          width: 15vh;
+          color: gray;
+          background-color: white;
+          border-radius: 20px;
+          font-size: medium;
+     } 
+     
+}
+
+
+@media (max-width:1030px) {
+     .header{
+          height: 45vw;
+          position: relative;
+     }
+     .headerContents{
+          width: 55%;
+          position: absolute;
+          bottom: 20vh;
+          
+          
+     }
+     .headerContents h2{
+          font-size: 4vh;
+          font-weight: 500;
+          color: white;
+          
+     } 
+     .headerContents p{
+       display: none;     
+     }
+     .headerContents button{
+          height: 5vh;
+          width: 12vh;
+          color: gray;
+          background-color: white;
+          border-radius: 15px;
+          font-size: small;
+     } 
+     
+}
+
+@media (max-width:750px){
+     .header{
+          height: 45vw;
+          position: relative;
+     }
+     .headerContents{
+          width: 55%;
+          position: absolute;
+          bottom: 30%;  
+     }
+     .headerContents h2{
+          font-size: 2vh;
+          font-weight: 500;
+          color: white;
+          
+     } 
+
+}
